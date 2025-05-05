@@ -74,10 +74,11 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
-                innovative solutions. Specializing in full-stack development, I
-                combine technical expertise with creative problem-solving to
-                build user-centric applications.
+                Computer Science graduate and experienced full-stack developer
+                specializing in React, Vue, and React Native. With a strong
+                foundation in frontend and backend technologies, I build
+                scalable, user-focused applications and deliver innovative
+                solutions for real-world problems.
               </p>
             </motion.div>
 
@@ -96,15 +97,12 @@ const AboutSection = () => {
                       Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">BSc in Software Engineering</p>
+                      <p className="font-medium">BS in Computer Science</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                        Superior University Gold Campus
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        2020 - 2024
                       </p>
                     </div>
                   </CardContent>
@@ -125,23 +123,30 @@ const AboutSection = () => {
                     </h3>
                     <div className="space-y-4">
                       <div>
-                        <p className="font-medium">
-                          Full Stack Developer Intern
+                        <p className="font-medium">Vue/React Developer</p>
+                        <p className="text-sm text-muted-foreground">
+                          SONDERBLU
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                          Aug 2023 – Present
                         </p>
                       </div>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
+                        <p className="font-medium">React Native Developer</p>
                         <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
+                          BRACESOL
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Freelance
+                          Mar 2023 – Jul 2023
+                        </p>
+                      </div>
+                      <div>
+                        <p className="font-medium">Vue.js Developer</p>
+                        <p className="text-sm text-muted-foreground">
+                          BRACESOL
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          Oct 2022 – Feb 2023
                         </p>
                       </div>
                     </div>
@@ -166,25 +171,24 @@ const AboutSection = () => {
             >
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
-                  src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  src="/imgs/profile.png"
+                  alt="Sameer Shoukat"
                   loading="lazy"
+                  className="object-contain"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>SS</AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+              {/* <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                 3.41 GPA
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
-              <p className="text-muted-foreground">
-                Software Engineering Student
-              </p>
+              <h3 className="text-2xl font-bold">Sameer Shoukat</h3>
+              <p className="text-muted-foreground">Software Engineering</p>
             </motion.div>
 
             <motion.div
@@ -192,7 +196,13 @@ const AboutSection = () => {
               className="flex flex-wrap gap-2 justify-center lg:justify-start"
             >
               <Badge variant="outline" className="bg-primary/10">
-                React
+                React/Next.js
+              </Badge>
+              <Badge variant="outline" className="bg-primary/10">
+                React Native
+              </Badge>
+              <Badge variant="outline" className="bg-primary/10">
+                Vue.js/Nuxt.js
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
                 Node
@@ -211,7 +221,7 @@ const AboutSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+                <a href={resumeUrl} download="Sameer_Shoukat_CV.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>

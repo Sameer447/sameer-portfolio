@@ -1,8 +1,7 @@
-
 {
-  "name": "Aathif Zahir Portfolio",
-  "short_name": "AZ Portfolio",
-  "description": "Portfolio website of Aathif Zahir, a software engineering student specializing in full-stack development.",
+  "name": "Sameer Shoukat Portfolio",
+  "short_name": "SS Portfolio",
+  "description": "Portfolio website of Sameer Shoukat, a software engineer specializing in full-stack development.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f7fafc",

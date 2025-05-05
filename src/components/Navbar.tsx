@@ -38,7 +38,7 @@ const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Achievements", href: "#achievements" },
+    // { name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -48,14 +48,14 @@ const Navbar = () => {
         "fixed top-0 w-full z-50 transition-all duration-300",
         scrolled
           ? "bg-background/90 backdrop-blur-sm shadow-sm py-2"
-          : "bg-transparent py-4"
+          : "bg-transparent py-4",
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
             <a href="/">
-              <span className="text-xl font-bold text-primary">AZ.</span>
+              <span className="text-xl font-bold text-primary">SS.</span>
             </a>
           </div>
 
