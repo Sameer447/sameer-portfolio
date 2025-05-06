@@ -12,10 +12,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
-            <span className="text-2xl font-bold text-primary">AZ.</span>
+            <span className="text-2xl font-bold text-primary">Sameer.</span>
             <p className="mt-2 text-muted-foreground max-w-md">
-              Building elegant digital solutions with a focus on user experience
-              and technical excellence.
+              Passionate Full-Stack Developer crafting seamless web and mobile
+              experiences with modern technologies and clean code.
             </p>
           </div>
 
@@ -40,9 +40,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href={Links.email}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:${Links.email}`}
                 aria-label="Email"
                 className="text-gray-400 hover:text-primary transition-colors"
               >
@@ -51,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="text-gray-400 text-sm text-right">
               <p>
-                © {currentYear} Aathif Zahir | Built with React and Tailwind
+                © {currentYear} Sameer Shoukat • Built with React & Tailwind CSS
               </p>
             </div>
           </div>
