@@ -8,7 +8,7 @@
     "name": "Sameer",
     "email": "sameershoukat526@gmail.com"
   },
-  "homepage": "",
+  "homepage": "https://full-stack-developer-iota.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
