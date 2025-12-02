@@ -171,7 +171,7 @@ const AboutSection = () => {
             >
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
-                  src="/imgs/profile.png"
+                  src="/imgs/profile-me.png"
                   alt="Sameer Shoukat"
                   loading="lazy"
                   className="object-contain"
